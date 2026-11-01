@@ -1,37 +1,32 @@
 <div align="center">
 <img src="assets/hero.svg" alt="Михаил Добродомов — backend-разработчик на Python" width="100%">
-<p><a href="#projects">Проекты</a> &nbsp;·&nbsp; <a href="#stack">Технологии</a> &nbsp;·&nbsp; <a href="#approach">Инженерный подход</a> &nbsp;·&nbsp; <a href="https://github.com/IMikhailI?tab=repositories">Все репозитории</a></p>
+<p><a href="#избранные-проекты">Проекты</a> &nbsp;·&nbsp; <a href="#технологии">Технологии</a> &nbsp;·&nbsp; <a href="#инженерный-подход">Инженерный подход</a> &nbsp;·&nbsp; <a href="https://github.com/IMikhailI?tab=repositories">Все репозитории</a></p>
 </div>
 
-Разрабатываю backend-сервисы на **Python**: от проектирования REST API и моделей данных до аутентификации, разграничения доступа и интеграций. Особое внимание уделяю архитектуре, PostgreSQL и поддерживаемости кода.
+Разрабатываю backend-сервисы на **Python и Django REST Framework**. Работаю с REST API, моделями данных, аутентификацией и разграничением доступа.
 
-<h2 id="projects">Избранные проекты</h2>
+## Избранные проекты
 
 <p><a href="https://github.com/IMikhailI/aid_platform"><img src="assets/aid-platform.svg" alt="Aid Platform — адресная помощь, от заявки до завершения" width="100%"></a></p>
 
-[Aid Platform](https://github.com/IMikhailI/aid_platform) — платформа адресной помощи: создание и проверка заявок, управление жизненным циклом, разграничение прав и защита персональных данных. В опубликованном репозитории backend реализован на **Django REST Framework**; предусмотрены проверочные API-сценарии. Исполнение помощи в MVP демонстрационное, без реальных платежей.
+[Aid Platform](https://github.com/IMikhailI/aid_platform) — **MVP платформы адресной помощи**. Заявки, модерация, разграничение доступа и отслеживание статусов. Сценарии оказания помощи работают в демонстрационном режиме.
 
 <p><a href="https://github.com/IMikhailI/GAIA_backend-"><img src="assets/gaia-platform.svg" alt="GAIA Platform — бронирование залов и расписание" width="100%"></a></p>
 
-[GAIA Platform](https://github.com/IMikhailI/GAIA_backend-) — backend для управления площадкой: доступность залов, бронирования, меню и административные сценарии с Telegram-ботом. Стек текущего кода — **Django / DRF и PostgreSQL**. Проект в разработке; настройки зависимостей и авторизацию административных API ещё нужно завершить.
+[GAIA Platform](https://github.com/IMikhailI/GAIA_backend-) — **проект в разработке**: бронирование залов, проверка доступности, управление расписанием и Telegram-бот для персонала.
 
 <p><a href="https://github.com/IMikhailI/StackBridge_test_task"><img src="assets/stackbridge.svg" alt="StackBridge Auth API — роли, права доступа и JWT-сессии" width="100%"></a></p>
 
-[StackBridge Auth API](https://github.com/IMikhailI/StackBridge_test_task) — REST API с аутентификацией и гибкой авторизацией: роли пользователей, разрешения на уровне ресурсов, проверка владельца и отзыв JWT-сессий на сервере.
+[StackBridge Auth API](https://github.com/IMikhailI/StackBridge_test_task) — **демонстрационный REST API** с регистрацией, ролями и правилами доступа к ресурсам. Включает проверку владельца и серверный отзыв JWT-сессий.
 
-<h2 id="stack">Технологии</h2>
+## Технологии
 
-<p><img src="assets/tech-stack.svg" alt="Подтверждённый стек: Python, Django REST Framework, PostgreSQL, Docker, Linux и JWT" width="100%"></p>
+**Backend:** Python · Django · Django REST Framework  
+**Данные:** PostgreSQL · SQL  
+**Инструменты:** Git · Docker · Docker Compose
 
-<sub>Показан стек, подтверждённый текущим кодом репозиториев; технологии не приписываются проектам без проверки.</sub>
+## Инженерный подход
 
-<h2 id="approach">Инженерный подход</h2>
-
-- **API и безопасность** — понятные контракты, аутентификация, роли и проверки прав доступа.
-- **Данные и надёжность** — реляционные модели, SQL, миграции и корректные переходы состояний.
-- **Качество реализации** — тестируемый код, документация и воспроизводимый запуск в Docker.
-
-<div align="center">
-<p><strong>Интересуюсь проектированием надёжных backend-систем и развитием их архитектуры.</strong></p>
-<p><a href="https://github.com/IMikhailI?tab=repositories">Все репозитории</a> &nbsp;·&nbsp; <a href="https://github.com/IMikhailI">Профиль GitHub</a></p>
-</div>
+- Проектирование API и реляционных моделей данных.
+- Аутентификация, роли и проверки доступа к ресурсам.
+- Документация, проверочные API-сценарии и контейнерный запуск.
